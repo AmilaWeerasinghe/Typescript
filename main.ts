@@ -1,10 +1,12 @@
-function log(message){
+import Point
+
+function showlog(message){
     console.log(message)
 
 }
 
 var message='Hello World';
-log(message);
+showlog(message);
 
 //type assertion
 
@@ -47,3 +49,6 @@ let drawiPoint=(point:Point)=>{  //inline annotations
 
     
 
+    let point =new Point(1,2); //memory allocation
+
+    point.draw();

@@ -1,10 +1,8 @@
-class Point{
-  x:number;
-  y:number;
+export class Point{
 
-    constructor(x?:number,y?:number){ // ? to make parameters optional
-        this.x=x;
-        this.y=y;
+
+    constructor( private x?:number, private y?:number){ // ? to make parameters optional
+        
 
     }
 
@@ -16,6 +14,9 @@ class Point{
     }
 }
 
-let point =new Point(1,2); //memory allocation
 
-point.draw();
+
+//properties
+//set method Set (name of the property) (values){this.x=values}
+//get method get (name of property){return this.x}
+//getter and setter for properties
