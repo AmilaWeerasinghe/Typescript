@@ -28,7 +28,22 @@ interface Point{
     y:number
 }
 
-let drawPoint=(point:Point)=>{  //inline annotations
+let drawiPoint=(point:Point)=>{  //inline annotations
 
 }
+
+//object oriented programming concept of cohesiom
+    class Points{
+        x:number;
+        y:number;
+
+        draw(){
+            //........
+        }
+        getDistance(another:Points){
+            //..........
+        }
+    }
+
+    
 
